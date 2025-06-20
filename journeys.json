@@ -1,0 +1,4351 @@
+{
+  "earlierRef": "3|OB|MT#14#11222#11220#11238#11247#0#0#165#11220#1#0#8#0#0#-2147483648#1#2|PDH#6fbd23b384e173cf62e5d03bcf508d1c|RD#20062025|RT#190000|US#1|RS#INIT",
+  "laterRef": "3|OF|MT#14#11232#11232#11248#11248#0#0#165#11228#8#0#2#0#0#-2147483648#1#2|PDH#6fbd23b384e173cf62e5d03bcf508d1c|RD#20062025|RT#190000|US#1|RS#INIT",
+  "journeys": [
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900042101",
+            "name": "U Spichernstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900042101",
+              "latitude": 52.496581,
+              "longitude": 13.330616
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900042101"
+          },
+          "departure": null,
+          "plannedDeparture": "2025-06-20T19:00:00+02:00",
+          "departureDelay": null,
+          "arrival": null,
+          "plannedArrival": "2025-06-20T19:05:00+02:00",
+          "arrivalDelay": null,
+          "reachable": false,
+          "tripId": "1|67672|39|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-u-bahn-u3",
+            "fahrtNr": "16018",
+            "name": "U3",
+            "public": true,
+            "adminCode": "BVU---",
+            "productName": "U",
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#00ff66"
+            }
+          },
+          "direction": "Krumme Lanke",
+          "arrivalPlatform": null,
+          "plannedArrivalPlatform": "1 (U3)",
+          "arrivalPrognosisType": null,
+          "departurePlatform": null,
+          "plannedDeparturePlatform": "3",
+          "departurePrognosisType": null,
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (U Nollendorfplatz (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (U Spichernstr. (Berlin))"
+            },
+            {
+              "id": "289539",
+              "type": "warning",
+              "summary": "The trip is cancelled",
+              "text": null,
+              "icon": {
+                "type": "HIM4",
+                "title": null
+              },
+              "priority": 100,
+              "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+              },
+              "company": "BVG",
+              "categories": [
+                4
+              ],
+              "validFrom": "2025-06-20T12:30:00+02:00",
+              "validUntil": "2025-06-20T20:05:00+02:00",
+              "modified": "2025-06-20T07:15:27+02:00"
+            },
+            {
+              "type": "status",
+              "code": "text.realtime.journey.cancelled",
+              "text": "U3 has been cancelled"
+            }
+          ],
+          "cycle": {
+            "min": 300,
+            "max": 1200,
+            "nr": 15
+          },
+          "alternatives": [
+            {
+              "tripId": "1|67675|17|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u3",
+                "fahrtNr": "16020",
+                "name": "U3",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#00ff66"
+                }
+              },
+              "direction": "Krumme Lanke",
+              "when": "2025-06-20T19:10:00+02:00",
+              "plannedWhen": "2025-06-20T19:10:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67668|13|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u3",
+                "fahrtNr": "16021",
+                "name": "U3",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#00ff66"
+                }
+              },
+              "direction": "Krumme Lanke",
+              "when": "2025-06-20T19:15:00+02:00",
+              "plannedWhen": "2025-06-20T19:15:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67672|40|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u3",
+                "fahrtNr": "16022",
+                "name": "U3",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#00ff66"
+                }
+              },
+              "direction": "Krumme Lanke",
+              "when": "2025-06-20T19:20:00+02:00",
+              "plannedWhen": "2025-06-20T19:20:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67668|14|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u3",
+                "fahrtNr": "16023",
+                "name": "U3",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#00ff66"
+                }
+              },
+              "direction": "Krumme Lanke",
+              "when": "2025-06-20T19:25:00+02:00",
+              "plannedWhen": "2025-06-20T19:25:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67668|15|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u3",
+                "fahrtNr": "16025",
+                "name": "U3",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#00ff66"
+                }
+              },
+              "direction": "Krumme Lanke",
+              "when": "2025-06-20T19:35:00+02:00",
+              "plannedWhen": "2025-06-20T19:35:00+02:00",
+              "delay": null
+            }
+          ],
+          "cancelled": true
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900042101",
+            "name": "U Spichernstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900042101",
+              "latitude": 52.496581,
+              "longitude": 13.330616
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900042101"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900042101",
+            "name": "U Spichernstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900042101",
+              "latitude": 52.496581,
+              "longitude": 13.330616
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900042101"
+          },
+          "departure": "2025-06-20T19:05:00+02:00",
+          "plannedDeparture": "2025-06-20T19:05:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:05:00+02:00",
+          "plannedArrival": "2025-06-20T19:05:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900042101",
+            "name": "U Spichernstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900042101",
+              "latitude": 52.496581,
+              "longitude": 13.330616
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900042101"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900023201",
+            "name": "S+U Zoologischer Garten Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900023201",
+              "latitude": 52.506919,
+              "longitude": 13.332711
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900023201"
+          },
+          "departure": "2025-06-20T19:08:00+02:00",
+          "plannedDeparture": "2025-06-20T19:08:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:10:00+02:00",
+          "plannedArrival": "2025-06-20T19:10:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|69455|17|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-u-bahn-u9",
+            "fahrtNr": "21473",
+            "name": "U9",
+            "public": true,
+            "adminCode": "BVU---",
+            "productName": "U",
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#ff7300"
+            }
+          },
+          "direction": "Osloer Str.",
+          "arrivalPlatform": "2 (U9)",
+          "plannedArrivalPlatform": "2 (U9)",
+          "arrivalPrognosisType": null,
+          "departurePlatform": "2 (U9)",
+          "plannedDeparturePlatform": "2 (U9)",
+          "departurePrognosisType": null,
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (U Spichernstr. (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 240,
+            "max": 600,
+            "nr": 20
+          },
+          "alternatives": [
+            {
+              "tripId": "1|69457|17|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u9",
+                "fahrtNr": "21475",
+                "name": "U9",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#ff7300"
+                }
+              },
+              "direction": "Osloer Str.",
+              "when": "2025-06-20T19:16:00+02:00",
+              "plannedWhen": "2025-06-20T19:16:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|69438|38|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u9",
+                "fahrtNr": "21476",
+                "name": "U9",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#ff7300"
+                }
+              },
+              "direction": "Osloer Str.",
+              "when": "2025-06-20T19:20:00+02:00",
+              "plannedWhen": "2025-06-20T19:20:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|69460|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u9",
+                "fahrtNr": "21477",
+                "name": "U9",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#ff7300"
+                }
+              },
+              "direction": "Osloer Str.",
+              "when": "2025-06-20T19:25:00+02:00",
+              "plannedWhen": "2025-06-20T19:25:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|69442|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u9",
+                "fahrtNr": "21478",
+                "name": "U9",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#ff7300"
+                }
+              },
+              "direction": "Osloer Str.",
+              "when": "2025-06-20T19:30:00+02:00",
+              "plannedWhen": "2025-06-20T19:30:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|69438|39|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u9",
+                "fahrtNr": "21480",
+                "name": "U9",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#ff7300"
+                }
+              },
+              "direction": "Osloer Str.",
+              "when": "2025-06-20T19:40:00+02:00",
+              "plannedWhen": "2025-06-20T19:40:00+02:00",
+              "delay": null
+            }
+          ]
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900023201",
+            "name": "S+U Zoologischer Garten Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900023201",
+              "latitude": 52.506919,
+              "longitude": 13.332711
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900023201"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900023201",
+            "name": "S+U Zoologischer Garten Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900023201",
+              "latitude": 52.506919,
+              "longitude": 13.332711
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900023201"
+          },
+          "departure": "2025-06-20T19:10:00+02:00",
+          "plannedDeparture": "2025-06-20T19:10:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:10:00+02:00",
+          "plannedArrival": "2025-06-20T19:10:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900023201",
+            "name": "S+U Zoologischer Garten Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900023201",
+              "latitude": 52.506919,
+              "longitude": 13.332711
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900023201"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100003",
+            "name": "S+U Alexanderplatz Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100003",
+              "latitude": 52.521508,
+              "longitude": 13.411267
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": false,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100003"
+          },
+          "departure": "2025-06-20T19:14:00+02:00",
+          "plannedDeparture": "2025-06-20T19:14:00+02:00",
+          "departureDelay": 0,
+          "arrival": "2025-06-20T19:27:00+02:00",
+          "plannedArrival": "2025-06-20T19:27:00+02:00",
+          "arrivalDelay": 0,
+          "reachable": true,
+          "tripId": "1|2525|4|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-s-bahn-s5",
+            "fahrtNr": "23313",
+            "name": "S5",
+            "public": true,
+            "adminCode": "DBS---",
+            "productName": "S",
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+              "type": "operator",
+              "id": "s-bahn-berlin-gmbh",
+              "name": "S-Bahn Berlin GmbH"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#eb7405"
+            }
+          },
+          "direction": "S Strausberg Nord",
+          "arrivalPlatform": "3",
+          "plannedArrivalPlatform": "3",
+          "arrivalPrognosisType": null,
+          "departurePlatform": "5",
+          "plannedDeparturePlatform": "5",
+          "departurePrognosisType": null,
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "DBS"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Alexanderplatz Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 120,
+            "max": 480,
+            "nr": 39
+          },
+          "alternatives": [
+            {
+              "tripId": "1|1632|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s3",
+                "fahrtNr": "19446",
+                "name": "S3",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#0079f2"
+                }
+              },
+              "direction": "S Erkner Bhf",
+              "when": "2025-06-20T19:16:00+02:00",
+              "plannedWhen": "2025-06-20T19:16:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|4451|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s9",
+                "fahrtNr": "28075",
+                "name": "S9",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#992746"
+                }
+              },
+              "direction": "Flughafen BER",
+              "when": "2025-06-20T19:19:00+02:00",
+              "plannedWhen": "2025-06-20T19:19:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|3468|9|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s7",
+                "fahrtNr": "25112",
+                "name": "S7",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#6d61f2"
+                }
+              },
+              "direction": "S Ahrensfelde Bhf (Berlin)",
+              "when": "2025-06-20T19:21:00+02:00",
+              "plannedWhen": "2025-06-20T19:21:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|2812|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s5",
+                "fahrtNr": "23797",
+                "name": "S5",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#eb7405"
+                }
+              },
+              "direction": "S Mahlsdorf Bhf (Berlin)",
+              "when": "2025-06-20T19:24:00+02:00",
+              "plannedWhen": "2025-06-20T19:24:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|1356|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s3",
+                "fahrtNr": "19150",
+                "name": "S3",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#0079f2"
+                }
+              },
+              "direction": "S Erkner Bhf",
+              "when": "2025-06-20T19:29:00+02:00",
+              "plannedWhen": "2025-06-20T19:29:00+02:00",
+              "delay": 0
+            }
+          ]
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=U Spichernstr. (Berlin)@L=900042101@a=128@$202506201900$202506201905$      U3$$1$$$$$$\u00a7T$A=1@O=U Spichernstr. (Berlin)@L=900042101@a=128@$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$202506201908$202506201910$      U9$$1$$$$$$\u00a7T$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$202506201914$202506201927$      S5$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzQ1MDU5I0hJTiMwI0VDSyMxMTIyMnwxMTIyMHwxMTIzOHwxMTI0N3wwfDB8MTY1fDExMjIwfDF8MHw4fDB8MHwtMjE0NzQ4MzY0OCNHQU0jMjAwNjI1MTkwMCMKWiNWTiMxI1NUIzE3NTAzNzU1MDAjUEkjMCNaSSM2NzY3MiNUQSMzOSNEQSMyMDA2MjUjMVMjOTAwMDU2MTAyIzFUIzE5MDAjTFMjOTAwMDUwMjAxI0xUIzE5MjQjUFUjODYjUlQjMSNDQSNVI1pFI1UzI1pCIyAgICAgIFUzI1BDIzEjRlIjOTAwMDU2MTAyI0ZUIzE5MDAjVE8jOTAwMDQyMTAxI1RUIzE5MDUjClojVk4jMSNTVCMxNzUwMzc1NTAwI1BJIzAjWkkjNjk0NTUjVEEjMTcjREEjMjAwNjI1IzFTIzkwMDA2MjIwMiMxVCMxODU5I0xTIzkwMDAwOTIwMiNMVCMxOTIyI1BVIzg2I1JUIzEjQ0EjVSNaRSNVOSNaQiMgICAgICBVOSNQQyMxI0ZSIzkwMDA0MjEwMSNGVCMxOTA4I1RPIzkwMDAyMzIwMSNUVCMxOTEwIwpaI1ZOIzEjU1QjMTc1MDM3NTUwMCNQSSMwI1pJIzI1MjUjVEEjNCNEQSMyMDA2MjUjMVMjOTAwMDI0MTAyIzFUIzE5MDcjTFMjOTAwMzIwMDAxI0xUIzIwMjUjUFUjODYjUlQjMSNDQSNTLTcjWkUjUzUjWkIjICAgICAgUzUjUEMjMCNGUiM5MDAwMjMyMDEjRlQjMTkxNCNUTyM5MDAxMDAwMDMjVFQjMTkyNyM=\u00b6KRCC\u00b6#VE#1#",
+      "cycle": {
+        "min": 300
+      },
+      "remarks": [
+        {
+          "type": "status",
+          "code": "text.realtime.connection.cancelled",
+          "text": "A section of this itinerary is cancelled or unusable."
+        }
+      ]
+    },
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100003",
+            "name": "S+U Alexanderplatz Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100003",
+              "latitude": 52.521508,
+              "longitude": 13.411267
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": false,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100003"
+          },
+          "departure": "2025-06-20T19:02:00+02:00",
+          "plannedDeparture": "2025-06-20T19:02:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:18:00+02:00",
+          "plannedArrival": "2025-06-20T19:18:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|67142|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-u-bahn-u2",
+            "fahrtNr": "14235",
+            "name": "U2",
+            "public": true,
+            "adminCode": "BVU---",
+            "productName": "U",
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#e75313"
+            }
+          },
+          "direction": "Pankow",
+          "arrivalPlatform": "2 (U2)",
+          "plannedArrivalPlatform": "2 (U2)",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": "2",
+          "plannedDeparturePlatform": "2",
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (U Nollendorfplatz (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Alexanderplatz Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 300,
+            "max": 900,
+            "nr": 20
+          },
+          "alternatives": [
+            {
+              "tripId": "1|67169|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14238",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:07:00+02:00",
+              "plannedWhen": "2025-06-20T19:07:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67169|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14240",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:17:00+02:00",
+              "plannedWhen": "2025-06-20T19:17:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67158|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14239",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:22:00+02:00",
+              "plannedWhen": "2025-06-20T19:22:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67183|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14242",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:27:00+02:00",
+              "plannedWhen": "2025-06-20T19:27:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67158|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14243",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:42:00+02:00",
+              "plannedWhen": "2025-06-20T19:42:00+02:00",
+              "delay": null
+            }
+          ]
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$202506201902$202506201918$      U2$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzEjSElOIzAjRUNLIzExMjIyfDExMjIyfDExMjM4fDExMjM4fDB8MHw2NTcwMXwxMTIyMHwyfDB8MnwwfDB8LTIxNDc0ODM2NDgjR0FNIzIwMDYyNTE5MDIjClojVk4jMSNTVCMxNzUwMzc1NTAwI1BJIzAjWkkjNjcxNDIjVEEjMCNEQSMyMDA2MjUjMVMjOTAwMDI1MjAyIzFUIzE4NDMjTFMjOTAwMTMwMDAyI0xUIzE5MzEjUFUjODYjUlQjMSNDQSNVI1pFI1UyI1pCIyAgICAgIFUyI1BDIzEjRlIjOTAwMDU2MTAyI0ZUIzE5MDIjVE8jOTAwMTAwMDAzI1RUIzE5MTgj\u00b6KRCC\u00b6#VE#1#",
+      "cycle": {
+        "min": 300
+      }
+    },
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900005105",
+            "name": "L\u00fctzowplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900005105",
+              "latitude": 52.505013,
+              "longitude": 13.351534
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900005105"
+          },
+          "departure": "2025-06-20T19:02:00+02:00",
+          "plannedDeparture": "2025-06-20T19:02:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:06:00+02:00",
+          "plannedArrival": "2025-06-20T19:06:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|26124|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-bus-106",
+            "fahrtNr": "94279",
+            "name": "106",
+            "public": true,
+            "adminCode": "BVB---",
+            "productName": "Bus",
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            }
+          },
+          "direction": "U Seestr.",
+          "arrivalPlatform": null,
+          "plannedArrivalPlatform": null,
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": null,
+          "plannedDeparturePlatform": null,
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            }
+          ],
+          "cycle": {
+            "min": 120,
+            "max": 660,
+            "nr": 17
+          },
+          "alternatives": [
+            {
+              "tripId": "1|37807|4|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109819",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:08:00+02:00",
+              "plannedWhen": "2025-06-20T19:08:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37807|5|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109820",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:18:00+02:00",
+              "plannedWhen": "2025-06-20T19:18:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|26125|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-106",
+                "fahrtNr": "94278",
+                "name": "106",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Seestr.",
+              "when": "2025-06-20T19:21:00+02:00",
+              "plannedWhen": "2025-06-20T19:21:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37807|6|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109821",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:28:00+02:00",
+              "plannedWhen": "2025-06-20T19:28:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37807|7|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109822",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:38:00+02:00",
+              "plannedWhen": "2025-06-20T19:38:00+02:00",
+              "delay": null
+            }
+          ]
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900005105",
+            "name": "L\u00fctzowplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900005105",
+              "latitude": 52.505013,
+              "longitude": 13.351534
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900005105"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900005105",
+            "name": "L\u00fctzowplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900005105",
+              "latitude": 52.505013,
+              "longitude": 13.351534
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900005105"
+          },
+          "departure": "2025-06-20T19:06:00+02:00",
+          "plannedDeparture": "2025-06-20T19:06:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:06:00+02:00",
+          "plannedArrival": "2025-06-20T19:06:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900005105",
+            "name": "L\u00fctzowplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900005105",
+              "latitude": 52.505013,
+              "longitude": 13.351534
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900005105"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100031",
+            "name": "S+U Alexanderplatz Bhf/Memhardstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100031",
+              "latitude": 52.522937,
+              "longitude": 13.410755
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900100031"
+          },
+          "departure": "2025-06-20T19:11:00+02:00",
+          "plannedDeparture": "2025-06-20T19:11:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:28:00+02:00",
+          "plannedArrival": "2025-06-20T19:28:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|25563|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-bus-100",
+            "fahrtNr": "93615",
+            "name": "100",
+            "public": true,
+            "adminCode": "BVB---",
+            "productName": "Bus",
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            }
+          },
+          "direction": "S+U Alexanderplatz",
+          "arrivalPlatform": "Pos. 24",
+          "plannedArrivalPlatform": "Pos. 24",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": null,
+          "plannedDeparturePlatform": null,
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            }
+          ],
+          "cycle": {
+            "min": 840,
+            "max": 900,
+            "nr": 9
+          }
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=L\u00fctzowplatz (Berlin)@L=900005105@a=128@$202506201902$202506201906$     106$$1$$$$$$\u00a7T$A=1@O=L\u00fctzowplatz (Berlin)@L=900005105@a=128@$A=1@O=S+U Alexanderplatz Bhf/Memhardstr. (Berlin)@L=900100031@a=128@$202506201911$202506201928$     100$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzQ1MDU4I0hJTiMzOTAjRUNLIzExMjIyfDExMjIyfDExMjM4fDExMjQ4fDB8MHwxNjV8MTEyMjB8M3wwfDh8MHwwfC0yMTQ3NDgzNjQ4I0dBTSMyMDA2MjUxOTAyIwpaI1ZOIzEjU1QjMTc1MDM3NTUwMCNQSSMwI1pJIzI2MTI0I1RBIzAjREEjMjAwNjI1IzFTIzkwMDA1ODEwNSMxVCMxODM3I0xTIzkwMDAwOTEwMyNMVCMxOTMwI1BVIzg2I1JUIzEjQ0EjQiNaRSMxMDYjWkIjICAgICAxMDYjUEMjMyNGUiM5MDAwNTYxMDIjRlQjMTkwMiNUTyM5MDAwMDUxMDUjVFQjMTkwNiMKWiNWTiMxI1NUIzE3NTAzNzU1MDAjUEkjMCNaSSMyNTU2MyNUQSMwI0RBIzIwMDYyNSMxUyM5MDAwMDQxODEjMVQjMTkwNCNMUyM5MDAxMDAwMzAjTFQjMTkzMSNQVSM4NiNSVCMxI0NBI0IjWkUjMTAwI1pCIyAgICAgMTAwI1BDIzMjRlIjOTAwMDA1MTA1I0ZUIzE5MTEjVE8jOTAwMTAwMDMxI1RUIzE5Mjgj\u00b6KRCC\u00b6#VE#1#",
+      "cycle": {
+        "min": 840
+      },
+      "remarks": []
+    },
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900058103",
+            "name": "S+U Yorckstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900058103",
+              "latitude": 52.492356,
+              "longitude": 13.372209
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900058103"
+          },
+          "departure": "2025-06-20T19:05:00+02:00",
+          "plannedDeparture": "2025-06-20T19:05:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:10:00+02:00",
+          "plannedArrival": "2025-06-20T19:10:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|46410|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-bus-m19",
+            "fahrtNr": "123479",
+            "name": "M19",
+            "public": true,
+            "adminCode": "BVB---",
+            "productName": "Bus",
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            }
+          },
+          "direction": "U Mehringdamm",
+          "arrivalPlatform": null,
+          "plannedArrivalPlatform": null,
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": null,
+          "plannedDeparturePlatform": null,
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            }
+          ],
+          "cycle": {
+            "min": 600,
+            "max": 600,
+            "nr": 13
+          }
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900058103",
+            "name": "S+U Yorckstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900058103",
+              "latitude": 52.492356,
+              "longitude": 13.372209
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900058103"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900058103",
+            "name": "S+U Yorckstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900058103",
+              "latitude": 52.492356,
+              "longitude": 13.372209
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900058103"
+          },
+          "departure": "2025-06-20T19:10:00+02:00",
+          "plannedDeparture": "2025-06-20T19:10:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:10:00+02:00",
+          "plannedArrival": "2025-06-20T19:10:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900058103",
+            "name": "S+U Yorckstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900058103",
+              "latitude": 52.492356,
+              "longitude": 13.372209
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900058103"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100001",
+            "name": "S+U Friedrichstr. Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100001",
+              "latitude": 52.520519,
+              "longitude": 13.386448
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100001"
+          },
+          "departure": "2025-06-20T19:14:00+02:00",
+          "plannedDeparture": "2025-06-20T19:14:00+02:00",
+          "departureDelay": 0,
+          "arrival": "2025-06-20T19:22:00+02:00",
+          "plannedArrival": "2025-06-20T19:22:00+02:00",
+          "arrivalDelay": 0,
+          "reachable": true,
+          "tripId": "1|5565|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-s-bahn-s26",
+            "fahrtNr": "18911",
+            "name": "S26",
+            "public": true,
+            "adminCode": "DBS---",
+            "productName": "S",
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+              "type": "operator",
+              "id": "s-bahn-berlin-gmbh",
+              "name": "S-Bahn Berlin GmbH"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#00b300"
+            }
+          },
+          "direction": "S Nordbahnhof (Berlin)",
+          "arrivalPlatform": "12",
+          "plannedArrivalPlatform": "12",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": "2",
+          "plannedDeparturePlatform": "2",
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "DBS"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Yorckstr. (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Friedrichstr. Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 300,
+            "max": 300,
+            "nr": 25
+          }
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900100001",
+            "name": "S+U Friedrichstr. Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100001",
+              "latitude": 52.520519,
+              "longitude": 13.386448
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100001"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100001",
+            "name": "S+U Friedrichstr. Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100001",
+              "latitude": 52.520519,
+              "longitude": 13.386448
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100001"
+          },
+          "departure": "2025-06-20T19:22:00+02:00",
+          "plannedDeparture": "2025-06-20T19:22:00+02:00",
+          "departureDelay": 0,
+          "arrival": "2025-06-20T19:22:00+02:00",
+          "plannedArrival": "2025-06-20T19:22:00+02:00",
+          "arrivalDelay": 0,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900100001",
+            "name": "S+U Friedrichstr. Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100001",
+              "latitude": 52.520519,
+              "longitude": 13.386448
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100001"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100003",
+            "name": "S+U Alexanderplatz Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100003",
+              "latitude": 52.521508,
+              "longitude": 13.411267
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": false,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100003"
+          },
+          "departure": "2025-06-20T19:26:00+02:00",
+          "plannedDeparture": "2025-06-20T19:26:00+02:00",
+          "departureDelay": 0,
+          "arrival": "2025-06-20T19:29:00+02:00",
+          "plannedArrival": "2025-06-20T19:29:00+02:00",
+          "arrivalDelay": 0,
+          "reachable": true,
+          "tripId": "1|1632|1|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-s-bahn-s3",
+            "fahrtNr": "19446",
+            "name": "S3",
+            "public": true,
+            "adminCode": "DBS---",
+            "productName": "S",
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+              "type": "operator",
+              "id": "s-bahn-berlin-gmbh",
+              "name": "S-Bahn Berlin GmbH"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#0079f2"
+            }
+          },
+          "direction": "S Erkner Bhf",
+          "arrivalPlatform": "3",
+          "plannedArrivalPlatform": "3",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": "5",
+          "plannedDeparturePlatform": "5",
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "DBS"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Friedrichstr. Bhf (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Alexanderplatz Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 120,
+            "max": 420,
+            "nr": 38
+          }
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=S+U Yorckstr. (Berlin)@L=900058103@a=128@$202506201905$202506201910$     M19$$1$$$$$$\u00a7T$A=1@O=S+U Yorckstr. (Berlin)@L=900058103@a=128@$A=1@O=S+U Friedrichstr. Bhf (Berlin)@L=900100001@a=128@$202506201914$202506201922$     S26$$1$$$$$$\u00a7T$A=1@O=S+U Friedrichstr. Bhf (Berlin)@L=900100001@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$202506201926$202506201929$      S3$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzQ1MDU5I0hJTiMwI0VDSyMxMTIyN3wxMTIyNXwxMTI0M3wxMTI0OXwwfDB8MTY1fDExMjIzfDR8MHw4fDB8MHwtMjE0NzQ4MzY0OCNHQU0jMjAwNjI1MTkwNSMKWiNWTiMxI1NUIzE3NTAzNzU1MDAjUEkjMCNaSSM0NjQxMCNUQSMwI0RBIzIwMDYyNSMxUyM5MDAwNDgxNTgjMVQjMTg0MCNMUyM5MDAwMTcxNzEjTFQjMTkxNyNQVSM4NiNSVCMxI0NBI0IjWkUjTTE5I1pCIyAgICAgTTE5I1BDIzMjRlIjOTAwMDU2MTAyI0ZUIzE5MDUjVE8jOTAwMDU4MTAzI1RUIzE5MTAjClojVk4jMSNTVCMxNzUwMzc1NTAwI1BJIzAjWkkjNTU2NSNUQSMwI0RBIzIwMDYyNSMxUyM5MDAyMjAxMTQjMVQjMTg1NSNMUyM5MDAwMDcxMDQjTFQjMTkyNiNQVSM4NiNSVCMxI0NBI1MtNiNaRSNTMjYjWkIjICAgICBTMjYjUEMjMCNGUiM5MDAwNTgxMDMjRlQjMTkxNCNUTyM5MDAxMDAwMDEjVFQjMTkyMiMKWiNWTiMxI1NUIzE3NTAzNzU1MDAjUEkjMCNaSSMxNjMyI1RBIzEjREEjMjAwNjI1IzFTIzkwMDAyNDEwMSMxVCMxOTEyI0xTIzkwMDMxMDAwNCNMVCMyMDEwI1BVIzg2I1JUIzEjQ0EjUy00I1pFI1MzI1pCIyAgICAgIFMzI1BDIzAjRlIjOTAwMTAwMDAxI0ZUIzE5MjYjVE8jOTAwMTAwMDAzI1RUIzE5Mjkj\u00b6KRCC\u00b6#VE#1#",
+      "cycle": {
+        "min": 600
+      }
+    },
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100003",
+            "name": "S+U Alexanderplatz Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100003",
+              "latitude": 52.521508,
+              "longitude": 13.411267
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": false,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100003"
+          },
+          "departure": "2025-06-20T19:07:00+02:00",
+          "plannedDeparture": "2025-06-20T19:07:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:23:00+02:00",
+          "plannedArrival": "2025-06-20T19:23:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|67169|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-u-bahn-u2",
+            "fahrtNr": "14238",
+            "name": "U2",
+            "public": true,
+            "adminCode": "BVU---",
+            "productName": "U",
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#e75313"
+            }
+          },
+          "direction": "Pankow",
+          "arrivalPlatform": "2 (U2)",
+          "plannedArrivalPlatform": "2 (U2)",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": "2",
+          "plannedDeparturePlatform": "2",
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (U Nollendorfplatz (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Alexanderplatz Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 300,
+            "max": 900,
+            "nr": 20
+          },
+          "alternatives": [
+            {
+              "tripId": "1|67169|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14240",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:17:00+02:00",
+              "plannedWhen": "2025-06-20T19:17:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67158|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14239",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:22:00+02:00",
+              "plannedWhen": "2025-06-20T19:22:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67183|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14242",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:27:00+02:00",
+              "plannedWhen": "2025-06-20T19:27:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67158|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14243",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:42:00+02:00",
+              "plannedWhen": "2025-06-20T19:42:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67183|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14246",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:47:00+02:00",
+              "plannedWhen": "2025-06-20T19:47:00+02:00",
+              "delay": null
+            }
+          ]
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$202506201907$202506201923$      U2$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzEjSElOIzAjRUNLIzExMjI3fDExMjI3fDExMjQzfDExMjQzfDB8MHwxNjV8MTEyMjN8NXwwfDJ8MHwwfC0yMTQ3NDgzNjQ4I0dBTSMyMDA2MjUxOTA3IwpaI1ZOIzEjU1QjMTc1MDM3NTUwMCNQSSMwI1pJIzY3MTY5I1RBIzAjREEjMjAwNjI1IzFTIzkwMDAyNjIwMSMxVCMxODU0I0xTIzkwMDEzMDAwMiNMVCMxOTM2I1BVIzg2I1JUIzEjQ0EjVSNaRSNVMiNaQiMgICAgICBVMiNQQyMxI0ZSIzkwMDA1NjEwMiNGVCMxOTA3I1RPIzkwMDEwMDAwMyNUVCMxOTIzIw==\u00b6KRCC\u00b6#VE#1#",
+      "cycle": {
+        "min": 300
+      }
+    },
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900023201",
+            "name": "S+U Zoologischer Garten Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900023201",
+              "latitude": 52.506919,
+              "longitude": 13.332711
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900023201"
+          },
+          "departure": "2025-06-20T19:08:00+02:00",
+          "plannedDeparture": "2025-06-20T19:08:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:12:00+02:00",
+          "plannedArrival": "2025-06-20T19:12:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|67083|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-u-bahn-u2",
+            "fahrtNr": "14722",
+            "name": "U2",
+            "public": true,
+            "adminCode": "BVU---",
+            "productName": "U",
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#e75313"
+            }
+          },
+          "direction": "Ruhleben",
+          "arrivalPlatform": "1 (U2)",
+          "plannedArrivalPlatform": "1 (U2)",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": "1",
+          "plannedDeparturePlatform": "1",
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (U Nollendorfplatz (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 300,
+            "max": 900,
+            "nr": 20
+          },
+          "alternatives": [
+            {
+              "tripId": "1|67045|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14723",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Theodor-Heuss-Platz",
+              "when": "2025-06-20T19:13:00+02:00",
+              "plannedWhen": "2025-06-20T19:13:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67045|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14725",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Theodor-Heuss-Platz",
+              "when": "2025-06-20T19:23:00+02:00",
+              "plannedWhen": "2025-06-20T19:23:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67077|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14726",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Ruhleben",
+              "when": "2025-06-20T19:28:00+02:00",
+              "plannedWhen": "2025-06-20T19:28:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67045|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14727",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Theodor-Heuss-Platz",
+              "when": "2025-06-20T19:33:00+02:00",
+              "plannedWhen": "2025-06-20T19:33:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67098|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14728",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Ruhleben",
+              "when": "2025-06-20T19:38:00+02:00",
+              "plannedWhen": "2025-06-20T19:38:00+02:00",
+              "delay": null
+            }
+          ]
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900023201",
+            "name": "S+U Zoologischer Garten Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900023201",
+              "latitude": 52.506919,
+              "longitude": 13.332711
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900023201"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900023201",
+            "name": "S+U Zoologischer Garten Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900023201",
+              "latitude": 52.506919,
+              "longitude": 13.332711
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900023201"
+          },
+          "departure": "2025-06-20T19:12:00+02:00",
+          "plannedDeparture": "2025-06-20T19:12:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:12:00+02:00",
+          "plannedArrival": "2025-06-20T19:12:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900023201",
+            "name": "S+U Zoologischer Garten Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900023201",
+              "latitude": 52.506919,
+              "longitude": 13.332711
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900023201"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100003",
+            "name": "S+U Alexanderplatz Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100003",
+              "latitude": 52.521508,
+              "longitude": 13.411267
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": false,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100003"
+          },
+          "departure": "2025-06-20T19:16:00+02:00",
+          "plannedDeparture": "2025-06-20T19:16:00+02:00",
+          "departureDelay": 0,
+          "arrival": "2025-06-20T19:29:00+02:00",
+          "plannedArrival": "2025-06-20T19:29:00+02:00",
+          "arrivalDelay": 0,
+          "reachable": true,
+          "tripId": "1|1632|1|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-s-bahn-s3",
+            "fahrtNr": "19446",
+            "name": "S3",
+            "public": true,
+            "adminCode": "DBS---",
+            "productName": "S",
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+              "type": "operator",
+              "id": "s-bahn-berlin-gmbh",
+              "name": "S-Bahn Berlin GmbH"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#0079f2"
+            }
+          },
+          "direction": "S Erkner Bhf",
+          "arrivalPlatform": "3",
+          "plannedArrivalPlatform": "3",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": "5",
+          "plannedDeparturePlatform": "5",
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "DBS"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Zoologischer Garten Bhf (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Alexanderplatz Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 120,
+            "max": 480,
+            "nr": 38
+          },
+          "alternatives": [
+            {
+              "tripId": "1|4451|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s9",
+                "fahrtNr": "28075",
+                "name": "S9",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#992746"
+                }
+              },
+              "direction": "Flughafen BER",
+              "when": "2025-06-20T19:19:00+02:00",
+              "plannedWhen": "2025-06-20T19:19:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|3468|9|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s7",
+                "fahrtNr": "25112",
+                "name": "S7",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#6d61f2"
+                }
+              },
+              "direction": "S Ahrensfelde Bhf (Berlin)",
+              "when": "2025-06-20T19:21:00+02:00",
+              "plannedWhen": "2025-06-20T19:21:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|2812|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s5",
+                "fahrtNr": "23797",
+                "name": "S5",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#eb7405"
+                }
+              },
+              "direction": "S Mahlsdorf Bhf (Berlin)",
+              "when": "2025-06-20T19:24:00+02:00",
+              "plannedWhen": "2025-06-20T19:24:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|1356|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s3",
+                "fahrtNr": "19150",
+                "name": "S3",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#0079f2"
+                }
+              },
+              "direction": "S Erkner Bhf",
+              "when": "2025-06-20T19:29:00+02:00",
+              "plannedWhen": "2025-06-20T19:29:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|3191|10|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s7",
+                "fahrtNr": "24712",
+                "name": "S7",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#6d61f2"
+                }
+              },
+              "direction": "S Ahrensfelde Bhf (Berlin)",
+              "when": "2025-06-20T19:31:00+02:00",
+              "plannedWhen": "2025-06-20T19:31:00+02:00",
+              "delay": 0
+            }
+          ]
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$202506201908$202506201912$      U2$$1$$$$$$\u00a7T$A=1@O=S+U Zoologischer Garten Bhf (Berlin)@L=900023201@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$202506201916$202506201929$      S3$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzIjSElOIzAjRUNLIzExMjI4fDExMjI4fDExMjQ5fDExMjQ5fDB8MHw2NTcwMXwxMTIyOHw1fDB8MnwwfDB8LTIxNDc0ODM2NDgjR0FNIzIwMDYyNTE5MDgjClojVk4jMSNTVCMxNzUwMzc1NTAwI1BJIzAjWkkjNjcwODMjVEEjMCNEQSMyMDA2MjUjMVMjOTAwMTMwMDAyIzFUIzE4MzkjTFMjOTAwMDI1MjAyI0xUIzE5MjYjUFUjODYjUlQjMSNDQSNVI1pFI1UyI1pCIyAgICAgIFUyI1BDIzEjRlIjOTAwMDU2MTAyI0ZUIzE5MDgjVE8jOTAwMDIzMjAxI1RUIzE5MTIjClojVk4jMSNTVCMxNzUwMzc1NTAwI1BJIzAjWkkjMTYzMiNUQSMxI0RBIzIwMDYyNSMxUyM5MDAwMjQxMDEjMVQjMTkxMiNMUyM5MDAzMTAwMDQjTFQjMjAxMCNQVSM4NiNSVCMxI0NBI1MtNCNaRSNTMyNaQiMgICAgICBTMyNQQyMwI0ZSIzkwMDAyMzIwMSNGVCMxOTE2I1RPIzkwMDEwMDAwMyNUVCMxOTI5Iw==\u00b6KRCC\u00b6#VE#1#VOLL#IST#",
+      "cycle": {
+        "min": 300
+      },
+      "remarks": [
+        {
+          "type": "status",
+          "code": "text.realtime.connection.alternative.summary",
+          "text": "Journey suggestion according to current traffic."
+        },
+        {
+          "type": "status",
+          "code": "text.realtime.connection.alternative.detail",
+          "text": "Journey suggestion according to current traffic situation. Please note the current real-time information."
+        }
+      ]
+    },
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900003203",
+            "name": "Alt-Moabit/Rathenower Str. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900003203",
+              "latitude": 52.523666,
+              "longitude": 13.356955
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900003203"
+          },
+          "departure": "2025-06-20T19:08:00+02:00",
+          "plannedDeparture": "2025-06-20T19:08:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:19:00+02:00",
+          "plannedArrival": "2025-06-20T19:19:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|37807|4|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-bus-187",
+            "fahrtNr": "109819",
+            "name": "187",
+            "public": true,
+            "adminCode": "BVB---",
+            "productName": "Bus",
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            }
+          },
+          "direction": "U Turmstr.",
+          "arrivalPlatform": null,
+          "plannedArrivalPlatform": null,
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": null,
+          "plannedDeparturePlatform": null,
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            }
+          ],
+          "cycle": {
+            "min": 600,
+            "max": 1200,
+            "nr": 10
+          },
+          "alternatives": [
+            {
+              "tripId": "1|37807|5|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109820",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:18:00+02:00",
+              "plannedWhen": "2025-06-20T19:18:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37807|6|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109821",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:28:00+02:00",
+              "plannedWhen": "2025-06-20T19:28:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37807|7|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109822",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:38:00+02:00",
+              "plannedWhen": "2025-06-20T19:38:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37807|8|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109823",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:48:00+02:00",
+              "plannedWhen": "2025-06-20T19:48:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37808|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109814",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:58:00+02:00",
+              "plannedWhen": "2025-06-20T19:58:00+02:00",
+              "delay": null
+            }
+          ]
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900003203",
+            "name": "Alt-Moabit/Rathenower Str. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900003203",
+              "latitude": 52.523666,
+              "longitude": 13.356955
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900003203"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900003203",
+            "name": "Alt-Moabit/Rathenower Str. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900003203",
+              "latitude": 52.523666,
+              "longitude": 13.356955
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900003203"
+          },
+          "departure": "2025-06-20T19:19:00+02:00",
+          "plannedDeparture": "2025-06-20T19:19:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:19:00+02:00",
+          "plannedArrival": "2025-06-20T19:19:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900003203",
+            "name": "Alt-Moabit/Rathenower Str. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900003203",
+              "latitude": 52.523666,
+              "longitude": 13.356955
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900003203"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900003201",
+            "name": "S+U Berlin Hauptbahnhof",
+            "location": {
+              "type": "location",
+              "id": "900003201",
+              "latitude": 52.525607,
+              "longitude": 13.369072
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900003201"
+          },
+          "departure": "2025-06-20T19:22:00+02:00",
+          "plannedDeparture": "2025-06-20T19:22:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:25:00+02:00",
+          "plannedArrival": "2025-06-20T19:25:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|63937|11|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-tram-m10",
+            "fahrtNr": "31534",
+            "name": "M10",
+            "public": true,
+            "adminCode": "BVT---",
+            "productName": "Tram",
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#007B3D"
+            }
+          },
+          "direction": "S+U Warschauer Str.",
+          "arrivalPlatform": "Pos. 5",
+          "plannedArrivalPlatform": "Pos. 5",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": null,
+          "plannedDeparturePlatform": null,
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (Alt-Moabit/Rathenower Str. (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Berlin Hauptbahnhof)"
+            }
+          ],
+          "cycle": {
+            "min": 300,
+            "max": 600,
+            "nr": 18
+          }
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900003201",
+            "name": "S+U Berlin Hauptbahnhof",
+            "location": {
+              "type": "location",
+              "id": "900003201",
+              "latitude": 52.525607,
+              "longitude": 13.369072
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900003201"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900003201",
+            "name": "S+U Berlin Hauptbahnhof",
+            "location": {
+              "type": "location",
+              "id": "900003201",
+              "latitude": 52.525607,
+              "longitude": 13.369072
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900003201"
+          },
+          "departure": "2025-06-20T19:25:00+02:00",
+          "plannedDeparture": "2025-06-20T19:25:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:25:00+02:00",
+          "plannedArrival": "2025-06-20T19:25:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900003201",
+            "name": "S+U Berlin Hauptbahnhof",
+            "location": {
+              "type": "location",
+              "id": "900003201",
+              "latitude": 52.525607,
+              "longitude": 13.369072
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": true,
+              "bus": true,
+              "ferry": false,
+              "express": true,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900003201"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100003",
+            "name": "S+U Alexanderplatz Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100003",
+              "latitude": 52.521508,
+              "longitude": 13.411267
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": false,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100003"
+          },
+          "departure": "2025-06-20T19:31:00+02:00",
+          "plannedDeparture": "2025-06-20T19:31:00+02:00",
+          "departureDelay": 0,
+          "arrival": "2025-06-20T19:37:00+02:00",
+          "plannedArrival": "2025-06-20T19:37:00+02:00",
+          "arrivalDelay": 0,
+          "reachable": true,
+          "tripId": "1|2812|1|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-s-bahn-s5",
+            "fahrtNr": "23797",
+            "name": "S5",
+            "public": true,
+            "adminCode": "DBS---",
+            "productName": "S",
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+              "type": "operator",
+              "id": "s-bahn-berlin-gmbh",
+              "name": "S-Bahn Berlin GmbH"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#eb7405"
+            }
+          },
+          "direction": "S Mahlsdorf Bhf (Berlin)",
+          "arrivalPlatform": "3",
+          "plannedArrivalPlatform": "3",
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": "15",
+          "plannedDeparturePlatform": "15",
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "DBS"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Berlin Hauptbahnhof)"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Alexanderplatz Bhf (Berlin))"
+            }
+          ],
+          "cycle": {
+            "min": 120,
+            "max": 480,
+            "nr": 37
+          },
+          "alternatives": [
+            {
+              "tripId": "1|1356|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s3",
+                "fahrtNr": "19150",
+                "name": "S3",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#0079f2"
+                }
+              },
+              "direction": "S Erkner Bhf",
+              "when": "2025-06-20T19:36:00+02:00",
+              "plannedWhen": "2025-06-20T19:36:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|3191|10|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s7",
+                "fahrtNr": "24712",
+                "name": "S7",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#6d61f2"
+                }
+              },
+              "direction": "S Ahrensfelde Bhf (Berlin)",
+              "when": "2025-06-20T19:38:00+02:00",
+              "plannedWhen": "2025-06-20T19:38:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|2520|5|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s5",
+                "fahrtNr": "23361",
+                "name": "S5",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#eb7405"
+                }
+              },
+              "direction": "S Strausberg Bhf",
+              "when": "2025-06-20T19:41:00+02:00",
+              "plannedWhen": "2025-06-20T19:41:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|1646|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s3",
+                "fahrtNr": "19384",
+                "name": "S3",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#0079f2"
+                }
+              },
+              "direction": "S Erkner Bhf",
+              "when": "2025-06-20T19:43:00+02:00",
+              "plannedWhen": "2025-06-20T19:43:00+02:00",
+              "delay": 0
+            },
+            {
+              "tripId": "1|4451|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-s-bahn-s9",
+                "fahrtNr": "28074",
+                "name": "S9",
+                "public": true,
+                "adminCode": "DBS---",
+                "productName": "S",
+                "mode": "train",
+                "product": "suburban",
+                "operator": {
+                  "type": "operator",
+                  "id": "s-bahn-berlin-gmbh",
+                  "name": "S-Bahn Berlin GmbH"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#992746"
+                }
+              },
+              "direction": "Flughafen BER",
+              "when": "2025-06-20T19:46:00+02:00",
+              "plannedWhen": "2025-06-20T19:46:00+02:00",
+              "delay": 0
+            }
+          ]
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=Alt-Moabit/Rathenower Str. (Berlin)@L=900003203@a=128@$202506201908$202506201919$     187$$1$$$$$$\u00a7T$A=1@O=Alt-Moabit/Rathenower Str. (Berlin)@L=900003203@a=128@$A=1@O=S+U Berlin Hauptbahnhof@L=900003201@a=128@$202506201922$202506201925$     M10$$1$$$$$$\u00a7T$A=1@O=S+U Berlin Hauptbahnhof@L=900003201@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$202506201931$202506201937$      S5$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzQ1MDU5I0hJTiMwI0VDSyMxMTIzMnwxMTIyOHwxMTI0OHwxMTI1N3wwfDB8MTY1fDExMjI4fDZ8MHw4fDB8MHwtMjE0NzQ4MzY0OCNHQU0jMjAwNjI1MTkwOCMKWiNWTiMxI1NUIzE3NTAzNzU1MDAjUEkjMCNaSSMzNzgwNyNUQSM0I0RBIzIwMDYyNSMxUyM5MDAwNzExNzEjMVQjMTgzMiNMUyM5MDAwMDMxMDQjTFQjMTkyNCNQVSM4NiNSVCMxI0NBI0IjWkUjMTg3I1pCIyAgICAgMTg3I1BDIzMjRlIjOTAwMDU2MTAyI0ZUIzE5MDgjVE8jOTAwMDAzMjAzI1RUIzE5MTkjClojVk4jMSNTVCMxNzUwMzc1NTAwI1BJIzAjWkkjNjM5MzcjVEEjMTEjREEjMjAwNjI1IzFTIzkwMDAwMzEwNCMxVCMxOTE3I0xTIzkwMDEyMDAwNCNMVCMyMDA1I1BVIzg2I1JUIzEjQ0EjVCNaRSNNMTAjWkIjICAgICBNMTAjUEMjMiNGUiM5MDAwMDMyMDMjRlQjMTkyMiNUTyM5MDAwMDMyMDEjVFQjMTkyNSMKWiNWTiMxI1NUIzE3NTAzNzU1MDAjUEkjMCNaSSMyODEyI1RBIzEjREEjMjAwNjI1IzFTIzkwMDAyNDEwMiMxVCMxOTE3I0xTIzkwMDE3NjAwMSNMVCMyMDAzI1BVIzg2I1JUIzEjQ0EjUy03I1pFI1M1I1pCIyAgICAgIFM1I1BDIzAjRlIjOTAwMDAzMjAxI0ZUIzE5MzEjVE8jOTAwMTAwMDAzI1RUIzE5Mzcj\u00b6KRCC\u00b6#VE#1#",
+      "cycle": {
+        "min": 600
+      }
+    },
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900056105",
+            "name": "An der Urania (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056105",
+              "latitude": 52.501076,
+              "longitude": 13.346797
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056105"
+          },
+          "departure": "2025-06-20T19:11:00+02:00",
+          "plannedDeparture": "2025-06-20T19:11:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:12:00+02:00",
+          "plannedArrival": "2025-06-20T19:12:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|46453|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-bus-m19",
+            "fahrtNr": "123435",
+            "name": "M19",
+            "public": true,
+            "adminCode": "BVB---",
+            "productName": "Bus",
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            }
+          },
+          "direction": "S Grunewald",
+          "arrivalPlatform": null,
+          "plannedArrivalPlatform": null,
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": null,
+          "plannedDeparturePlatform": null,
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            }
+          ],
+          "cycle": {
+            "min": 60,
+            "max": 480,
+            "nr": 26
+          },
+          "alternatives": [
+            {
+              "tripId": "1|37807|5|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109820",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:18:00+02:00",
+              "plannedWhen": "2025-06-20T19:18:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|46492|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-m19",
+                "fahrtNr": "123173",
+                "name": "M19",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "Grunewald, Hagenplatz",
+              "when": "2025-06-20T19:21:00+02:00",
+              "plannedWhen": "2025-06-20T19:21:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37807|6|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109821",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:28:00+02:00",
+              "plannedWhen": "2025-06-20T19:28:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|46453|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-m19",
+                "fahrtNr": "123436",
+                "name": "M19",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "S Grunewald",
+              "when": "2025-06-20T19:31:00+02:00",
+              "plannedWhen": "2025-06-20T19:31:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|37807|7|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-187",
+                "fahrtNr": "109822",
+                "name": "187",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Turmstr.",
+              "when": "2025-06-20T19:38:00+02:00",
+              "plannedWhen": "2025-06-20T19:38:00+02:00",
+              "delay": null
+            }
+          ]
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056105",
+            "name": "An der Urania (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056105",
+              "latitude": 52.501076,
+              "longitude": 13.346797
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056105"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900056105",
+            "name": "An der Urania (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056105",
+              "latitude": 52.501076,
+              "longitude": 13.346797
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056105"
+          },
+          "departure": "2025-06-20T19:12:00+02:00",
+          "plannedDeparture": "2025-06-20T19:12:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:12:00+02:00",
+          "plannedArrival": "2025-06-20T19:12:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056105",
+            "name": "An der Urania (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056105",
+              "latitude": 52.501076,
+              "longitude": 13.346797
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056105"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900012104",
+            "name": "Lindenstr./Oranienstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900012104",
+              "latitude": 52.506964,
+              "longitude": 13.398368
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900012104"
+          },
+          "departure": "2025-06-20T19:14:00+02:00",
+          "plannedDeparture": "2025-06-20T19:14:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:29:00+02:00",
+          "plannedArrival": "2025-06-20T19:29:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|47575|1|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-bus-m29",
+            "fahrtNr": "125645",
+            "name": "M29",
+            "public": true,
+            "adminCode": "BVB---",
+            "productName": "Bus",
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            }
+          },
+          "direction": "U Hermannplatz",
+          "arrivalPlatform": null,
+          "plannedArrivalPlatform": null,
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": null,
+          "plannedDeparturePlatform": null,
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            }
+          ],
+          "cycle": {
+            "min": 240,
+            "max": 600,
+            "nr": 18
+          },
+          "alternatives": [
+            {
+              "tripId": "1|47490|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-m29",
+                "fahrtNr": "125842",
+                "name": "M29",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Hermannplatz",
+              "when": "2025-06-20T19:19:00+02:00",
+              "plannedWhen": "2025-06-20T19:19:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|47575|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-m29",
+                "fahrtNr": "125646",
+                "name": "M29",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Hermannplatz",
+              "when": "2025-06-20T19:24:00+02:00",
+              "plannedWhen": "2025-06-20T19:24:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|47591|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-m29",
+                "fahrtNr": "125569",
+                "name": "M29",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Hermannplatz",
+              "when": "2025-06-20T19:28:00+02:00",
+              "plannedWhen": "2025-06-20T19:28:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|47576|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-m29",
+                "fahrtNr": "125642",
+                "name": "M29",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Hermannplatz",
+              "when": "2025-06-20T19:34:00+02:00",
+              "plannedWhen": "2025-06-20T19:34:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|47591|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-m29",
+                "fahrtNr": "125570",
+                "name": "M29",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "U Hermannplatz",
+              "when": "2025-06-20T19:38:00+02:00",
+              "plannedWhen": "2025-06-20T19:38:00+02:00",
+              "delay": null
+            }
+          ]
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900012104",
+            "name": "Lindenstr./Oranienstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900012104",
+              "latitude": 52.506964,
+              "longitude": 13.398368
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900012104"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900012104",
+            "name": "Lindenstr./Oranienstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900012104",
+              "latitude": 52.506964,
+              "longitude": 13.398368
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900012104"
+          },
+          "departure": "2025-06-20T19:29:00+02:00",
+          "plannedDeparture": "2025-06-20T19:29:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:29:00+02:00",
+          "plannedArrival": "2025-06-20T19:29:00+02:00",
+          "arrivalDelay": null,
+          "public": true,
+          "walking": true,
+          "distance": null
+        },
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900012104",
+            "name": "Lindenstr./Oranienstr. (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900012104",
+              "latitude": 52.506964,
+              "longitude": 13.398368
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900012104"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100711",
+            "name": "S+U Alexanderpl./Grunerstr.(Bln) [Grunerstr.]",
+            "location": {
+              "type": "location",
+              "id": "900100711",
+              "latitude": 52.52087,
+              "longitude": 13.415034
+            },
+            "products": {
+              "suburban": false,
+              "subway": false,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900100711"
+          },
+          "departure": "2025-06-20T19:32:00+02:00",
+          "plannedDeparture": "2025-06-20T19:32:00+02:00",
+          "departureDelay": null,
+          "arrival": "2025-06-20T19:40:00+02:00",
+          "plannedArrival": "2025-06-20T19:40:00+02:00",
+          "arrivalDelay": null,
+          "reachable": true,
+          "tripId": "1|41501|0|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-bus-248",
+            "fahrtNr": "115298",
+            "name": "248",
+            "public": true,
+            "adminCode": "BVB---",
+            "productName": "Bus",
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            }
+          },
+          "direction": "S+U Alexanderplatz",
+          "arrivalPlatform": null,
+          "plannedArrivalPlatform": null,
+          "arrivalPrognosisType": "prognosed",
+          "departurePlatform": null,
+          "plannedDeparturePlatform": null,
+          "departurePrognosisType": "prognosed",
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            }
+          ],
+          "cycle": {
+            "min": 480,
+            "max": 1200,
+            "nr": 13
+          },
+          "alternatives": [
+            {
+              "tripId": "1|41483|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-248",
+                "fahrtNr": "115377",
+                "name": "248",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "S+U Alexanderplatz",
+              "when": "2025-06-20T19:42:00+02:00",
+              "plannedWhen": "2025-06-20T19:42:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|41501|1|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-248",
+                "fahrtNr": "115299",
+                "name": "248",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "S+U Alexanderplatz",
+              "when": "2025-06-20T19:52:00+02:00",
+              "plannedWhen": "2025-06-20T19:52:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|41484|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-248",
+                "fahrtNr": "115481",
+                "name": "248",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "S+U Alexanderplatz",
+              "when": "2025-06-20T20:01:00+02:00",
+              "plannedWhen": "2025-06-20T20:01:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|41502|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-248",
+                "fahrtNr": "115297",
+                "name": "248",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "S+U Alexanderplatz",
+              "when": "2025-06-20T20:09:00+02:00",
+              "plannedWhen": "2025-06-20T20:09:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|41474|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-bus-248",
+                "fahrtNr": "115486",
+                "name": "248",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                }
+              },
+              "direction": "S+U Alexanderplatz",
+              "when": "2025-06-20T20:17:00+02:00",
+              "plannedWhen": "2025-06-20T20:17:00+02:00",
+              "delay": null
+            }
+          ]
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=An der Urania (Berlin)@L=900056105@a=128@$202506201911$202506201912$     M19$$1$$$$$$\u00a7T$A=1@O=An der Urania (Berlin)@L=900056105@a=128@$A=1@O=Lindenstr./Oranienstr. (Berlin)@L=900012104@a=128@$202506201914$202506201929$     M29$$1$$$$$$\u00a7T$A=1@O=Lindenstr./Oranienstr. (Berlin)@L=900012104@a=128@$A=1@O=S+U Alexanderpl./Grunerstr.(Bln) [Grunerstr.]@L=900100711@a=128@$202506201932$202506201940$     248$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzQ1MDU5I0hJTiMzOTAjRUNLIzExMjMyfDExMjMxfDExMjQ4fDExMjYwfDB8MHwxNjV8MTEyMjh8N3wwfDh8MHwwfC0yMTQ3NDgzNjQ4I0dBTSMyMDA2MjUxOTExIwpaI1ZOIzEjU1QjMTc1MDM3NTUwMCNQSSMwI1pJIzQ2NDUzI1RBIzAjREEjMjAwNjI1IzFTIzkwMDAxNzE3MSMxVCMxOTAxI0xTIzkwMDA0ODEwMSNMVCMxOTM3I1BVIzg2I1JUIzEjQ0EjQiNaRSNNMTkjWkIjICAgICBNMTkjUEMjMyNGUiM5MDAwNTYxMDIjRlQjMTkxMSNUTyM5MDAwNTYxMDUjVFQjMTkxMiMKWiNWTiMxI1NUIzE3NTAzNzU1MDAjUEkjMCNaSSM0NzU3NSNUQSMxI0RBIzIwMDYyNSMxUyM5MDAwNTYxMDEjMVQjMTkxMiNMUyM5MDAwNzgxMDQjTFQjMTk0OSNQVSM4NiNSVCMxI0NBI0IjWkUjTTI5I1pCIyAgICAgTTI5I1BDIzMjRlIjOTAwMDU2MTA1I0ZUIzE5MTQjVE8jOTAwMDEyMTA0I1RUIzE5MjkjClojVk4jMSNTVCMxNzUwMzc1NTAwI1BJIzAjWkkjNDE1MDEjVEEjMCNEQSMyMDA2MjUjMVMjOTAwMDUxMjgxIzFUIzE4NTAjTFMjOTAwMTAwNzExI0xUIzE5NDAjUFUjODYjUlQjMSNDQSNCI1pFIzI0OCNaQiMgICAgIDI0OCNQQyMzI0ZSIzkwMDAxMjEwNCNGVCMxOTMyI1RPIzkwMDEwMDcxMSNUVCMxOTQwIw==\u00b6KRCC\u00b6#VE#1#",
+      "cycle": {
+        "min": 480
+      },
+      "remarks": []
+    },
+    {
+      "type": "journey",
+      "legs": [
+        {
+          "origin": {
+            "type": "stop",
+            "id": "900056102",
+            "name": "U Nollendorfplatz (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900056102",
+              "latitude": 52.499646,
+              "longitude": 13.353826
+            },
+            "products": {
+              "suburban": false,
+              "subway": true,
+              "tram": false,
+              "bus": true,
+              "ferry": false,
+              "express": false,
+              "regional": false
+            },
+            "stationDHID": "de:11000:900056102"
+          },
+          "destination": {
+            "type": "stop",
+            "id": "900100003",
+            "name": "S+U Alexanderplatz Bhf (Berlin)",
+            "location": {
+              "type": "location",
+              "id": "900100003",
+              "latitude": 52.521508,
+              "longitude": 13.411267
+            },
+            "products": {
+              "suburban": true,
+              "subway": true,
+              "tram": false,
+              "bus": false,
+              "ferry": false,
+              "express": false,
+              "regional": true
+            },
+            "stationDHID": "de:11000:900100003"
+          },
+          "departure": null,
+          "plannedDeparture": "2025-06-20T19:12:00+02:00",
+          "departureDelay": null,
+          "arrival": null,
+          "plannedArrival": "2025-06-20T19:28:00+02:00",
+          "arrivalDelay": null,
+          "reachable": false,
+          "tripId": "1|67142|1|86|20062025",
+          "line": {
+            "type": "line",
+            "id": "de-vbb-11000000-u-bahn-u2",
+            "fahrtNr": "14237",
+            "name": "U2",
+            "public": true,
+            "adminCode": "BVU---",
+            "productName": "U",
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+              "type": "operator",
+              "id": "berliner-verkehrsbetriebe",
+              "name": "Berliner Verkehrsbetriebe"
+            },
+            "color": {
+              "fg": "#fff",
+              "bg": "#e75313"
+            }
+          },
+          "direction": "Pankow",
+          "arrivalPlatform": null,
+          "plannedArrivalPlatform": "2 (U2)",
+          "arrivalPrognosisType": null,
+          "departurePlatform": null,
+          "plannedDeparturePlatform": "2",
+          "departurePrognosisType": null,
+          "remarks": [
+            {
+              "type": "hint",
+              "code": "OPERATOR",
+              "text": "BVG"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (U Nollendorfplatz (Berlin))"
+            },
+            {
+              "type": "hint",
+              "code": "FK",
+              "text": "Bicycle conveyance (S+U Alexanderplatz Bhf (Berlin))"
+            },
+            {
+              "id": "289532",
+              "type": "warning",
+              "summary": "The trip is cancelled",
+              "text": null,
+              "icon": {
+                "type": "HIM4",
+                "title": null
+              },
+              "priority": 100,
+              "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+              },
+              "company": "BVG",
+              "categories": [
+                4
+              ],
+              "validFrom": "2025-06-20T12:44:00+02:00",
+              "validUntil": "2025-06-21T00:33:00+02:00",
+              "modified": "2025-06-20T06:54:07+02:00"
+            },
+            {
+              "type": "status",
+              "code": "text.realtime.journey.cancelled",
+              "text": "U2 has been cancelled"
+            }
+          ],
+          "cycle": {
+            "min": 300,
+            "max": 900,
+            "nr": 20
+          },
+          "alternatives": [
+            {
+              "tripId": "1|67158|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14239",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:22:00+02:00",
+              "plannedWhen": "2025-06-20T19:22:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67183|0|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14242",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:27:00+02:00",
+              "plannedWhen": "2025-06-20T19:27:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67158|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14243",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:42:00+02:00",
+              "plannedWhen": "2025-06-20T19:42:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67183|2|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14246",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:47:00+02:00",
+              "plannedWhen": "2025-06-20T19:47:00+02:00",
+              "delay": null
+            },
+            {
+              "tripId": "1|67158|3|86|20062025",
+              "line": {
+                "type": "line",
+                "id": "de-vbb-11000000-u-bahn-u2",
+                "fahrtNr": "14245",
+                "name": "U2",
+                "public": true,
+                "adminCode": "BVU---",
+                "productName": "U",
+                "mode": "train",
+                "product": "subway",
+                "operator": {
+                  "type": "operator",
+                  "id": "berliner-verkehrsbetriebe",
+                  "name": "Berliner Verkehrsbetriebe"
+                },
+                "color": {
+                  "fg": "#fff",
+                  "bg": "#e75313"
+                }
+              },
+              "direction": "Pankow",
+              "when": "2025-06-20T19:52:00+02:00",
+              "plannedWhen": "2025-06-20T19:52:00+02:00",
+              "delay": null
+            }
+          ],
+          "cancelled": true
+        }
+      ],
+      "refreshToken": "\u00b6HKI\u00b6T$A=1@O=U Nollendorfplatz (Berlin)@L=900056102@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$202506201912$202506201928$      U2$$1$$$$$$\u00b6KC\u00b6#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16481#AM2#0#RT#15#\u00b6KCC\u00b6I1ZFIzEjRVJHIzEjSElOIzAjRUNLIzExMjMyfDExMjMyfDExMjQ4fDExMjQ4fDB8MHwxNjV8MTEyMjh8OHwwfDJ8MHwwfC0yMTQ3NDgzNjQ4I0dBTSMyMDA2MjUxOTEyIwpaI1ZOIzEjU1QjMTc1MDM3NTUwMCNQSSMwI1pJIzY3MTQyI1RBIzEjREEjMjAwNjI1IzFTIzkwMDAyNTIwMiMxVCMxODUzI0xTIzkwMDEzMDAwMiNMVCMxOTQxI1BVIzg2I1JUIzEjQ0EjVSNaRSNVMiNaQiMgICAgICBVMiNQQyMxI0ZSIzkwMDA1NjEwMiNGVCMxOTEyI1RPIzkwMDEwMDAwMyNUVCMxOTI4Iw==\u00b6KRCC\u00b6#VE#1#",
+      "cycle": {
+        "min": 300
+      },
+      "remarks": [
+        {
+          "type": "status",
+          "code": "text.realtime.connection.cancelled",
+          "text": "A section of this itinerary is cancelled or unusable."
+        }
+      ]
+    }
+  ],
+  "realtimeDataUpdatedAt": 1750428854
+}
